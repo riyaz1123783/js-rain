@@ -213,7 +213,7 @@ let negValue = -value
 
 let srt1 = "hello"
 let str2 = " kaizen"
-let str3 = srt1 + str2
+let str3 = srt1 + str2  // you can not substract, you can only add
 //console.log(str3);
 
 //console.log("1" + 2);
@@ -226,10 +226,10 @@ console.log(+true);
 console.log(+"");
 
 let num1, num2, num3  
-num1= num2 = num3 = 2 + 2 
+num1= num2 = num3 = 2 + 2        // code should be easily readable, not merry like this 
 
 let gameCounter = 100
-gameCounter++;
+gameCounter++;    // important topic prefix and postfix 
 console.log(gameCounter);
 
 
