@@ -24,7 +24,7 @@ const bigNumber = 36556563565659459598n
 
 // Array, Objects, functions 
 
-const myGirlsMood = [ "happy", "angry", "trying to kill me", "sad", "energetic", "low mood"];
+const heros = ["bq2", "h1k3", "kc4l", "rxz7"];
 
 let myObj = {
     name: kai,
@@ -32,6 +32,44 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("hello, my girl");
+    console.log("hello world");
     
 }
+
+
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (No-primitive)
+
+let myGirlName = "Quynh"
+
+let anotherName = myGirlName
+
+anotherName = "kanchi"
+
+
+console.log(myGirlName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@bl"
+}
+
+
+
+let userTwo = userOne
+
+userTwo.email = "kai@123.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
