@@ -46,14 +46,14 @@ const myFunction = function(){
 
 // Stack (Primitive), Heap (No-primitive)
 
-let myGirlName = "Quynh"
+let myName = "kai"
 
-let anotherName = myGirlName
+let anotherName = myName
 
-anotherName = "kanchi"
+anotherName = "abc"
 
 
-console.log(myGirlName);
+console.log(myName);
 console.log(anotherName);
 
 let userOne = {
